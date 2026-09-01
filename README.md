@@ -8,6 +8,8 @@ Install via [HACS](https://hacs.xyz/) as a **custom repository**:
 https://github.com/doodersrage/thermatrace-HACS-component
 ```
 
+**Product guide:** [thermaltrace.dev/integrations/home-assistant](https://thermaltrace.dev/integrations/home-assistant)
+
 Category: **Integration**
 
 ## Features
