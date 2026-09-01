@@ -1,14 +1,14 @@
 # ThermalTrace Home Assistant (HACS)
 
 [![hacs_badge](https://img.shields.io/badge/HACS-Custom-orange.svg?style=for-the-badge)](https://github.com/hacs/integration)
-[![Validate](https://github.com/doodersrage/thermatrace-HACS-component/actions/workflows/validate.yaml/badge.svg)](https://github.com/doodersrage/thermatrace-HACS-component/actions/workflows/validate.yaml)
+[![Validate](https://github.com/doodersrage/thermaltrace-home-assistant/actions/workflows/validate.yaml/badge.svg)](https://github.com/doodersrage/thermaltrace-home-assistant/actions/workflows/validate.yaml)
 
 Official [Home Assistant](https://www.home-assistant.io/) custom integration for [ThermalTrace](https://thermaltrace.dev) — garage and workshop sensor monitoring with freeze alerts, history, and household sharing.
 
 Install via [HACS](https://hacs.xyz/) as a **custom repository**:
 
 ```
-https://github.com/doodersrage/thermatrace-HACS-component
+https://github.com/doodersrage/thermaltrace-home-assistant
 ```
 
 **Product guide:** [thermaltrace.dev/integrations/home-assistant](https://thermaltrace.dev/integrations/home-assistant)
