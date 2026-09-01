@@ -1,0 +1,80 @@
+snooze:
+  name: Snooze freeze alerts
+  description: Pause ThermalTrace freeze alerts for a number of hours (requires inbound webhook).
+  fields:
+    config_entry:
+      required: false
+      selector:
+        config_entry:
+          integration: thermaltrace
+    hours:
+      name: Hours
+      default: 24
+      selector:
+        number:
+          min: 1
+          max: 168
+          mode: box
+
+vacation:
+  name: Vacation mode
+  description: Enable ThermalTrace vacation mode for a number of days (requires inbound webhook).
+  fields:
+    config_entry:
+      required: false
+      selector:
+        config_entry:
+          integration: thermaltrace
+    days:
+      name: Days
+      default: 7
+      selector:
+        number:
+          min: 1
+          max: 90
+          mode: box
+
+clear_snooze:
+  name: Clear snooze
+  description: Clear an active ThermalTrace alert snooze.
+  fields:
+    config_entry:
+      required: false
+      selector:
+        config_entry:
+          integration: thermaltrace
+
+clear_vacation:
+  name: Clear vacation
+  description: Clear ThermalTrace vacation mode.
+  fields:
+    config_entry:
+      required: false
+      selector:
+        config_entry:
+          integration: thermaltrace
+
+status:
+  name: Fetch status
+  description: Fetch a ThermalTrace household status snapshot (requires inbound webhook).
+  fields:
+    config_entry:
+      required: false
+      selector:
+        config_entry:
+          integration: thermaltrace
+
+push:
+  name: Push readings
+  description: POST sensor readings to a ThermalTrace push device (requires ingest key).
+  fields:
+    config_entry:
+      required: false
+      selector:
+        config_entry:
+          integration: thermaltrace
+    payload:
+      name: Payload
+      required: true
+      selector:
+        object:

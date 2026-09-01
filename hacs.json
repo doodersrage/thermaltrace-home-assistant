@@ -1,7 +1,5 @@
 {
   "name": "ThermalTrace",
   "render_readme": true,
-  "domains": ["sensor", "binary_sensor"],
-  "iot_class": "cloud_polling",
   "homeassistant": "2024.1.0"
 }
