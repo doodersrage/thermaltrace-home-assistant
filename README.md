@@ -13,6 +13,8 @@ https://github.com/doodersrage/thermaltrace-home-assistant
 
 **Product guide:** [thermaltrace.dev/integrations/home-assistant](https://thermaltrace.dev/integrations/home-assistant)
 
+**Default HACS store:** [hacs/default#10550](https://github.com/hacs/default/pull/10550) (in review — custom repository works today)
+
 Category: **Integration**
 
 ## Features
