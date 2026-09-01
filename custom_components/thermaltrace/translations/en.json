@@ -1,0 +1,36 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connect ThermalTrace",
+        "description": "Create a share link under Dashboard → Share (Pro) and paste the token from the URL (`/share/YOUR_TOKEN`). Optional fields enable inbound webhooks and push ingest from Home Assistant automations.",
+        "data": {
+          "base_url": "ThermalTrace site URL",
+          "share_token": "Share link token",
+          "scan_interval": "Poll interval (seconds)",
+          "inbound_token": "Inbound webhook token (optional)",
+          "inbound_secret": "Inbound webhook signing secret (optional)",
+          "ingest_key": "Push device ingest key (optional)"
+        }
+      },
+      "init": {
+        "title": "Update ThermalTrace",
+        "data": {
+          "base_url": "ThermalTrace site URL",
+          "share_token": "Share link token",
+          "scan_interval": "Poll interval (seconds)",
+          "inbound_token": "Inbound webhook token (optional)",
+          "inbound_secret": "Inbound webhook signing secret (optional)",
+          "ingest_key": "Push device ingest key (optional)"
+        }
+      }
+    },
+    "error": {
+      "invalid_share_token": "Share token is invalid or expired",
+      "cannot_connect": "Could not reach ThermalTrace — check the site URL and network"
+    },
+    "abort": {
+      "already_configured": "This share link is already configured"
+    }
+  }
+}
