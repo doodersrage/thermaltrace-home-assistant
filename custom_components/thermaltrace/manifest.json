@@ -3,7 +3,7 @@
   "name": "ThermalTrace",
   "codeowners": ["@doodersrage"],
   "config_flow": true,
-  "documentation": "https://github.com/doodersrage/thermatrace-HACS-component",
+  "documentation": "https://thermaltrace.dev/integrations/home-assistant",
   "integration_type": "hub",
   "iot_class": "cloud_polling",
   "issue_tracker": "https://github.com/doodersrage/thermatrace-HACS-component/issues",
